@@ -7,19 +7,19 @@ const PHONE = "50687969295";
 const servicios = [
   {
     title: "Restauración completa",
-    price: "Desde ₡20.000",
+    price: "Desde ₡25.000",
     text: "Eliminamos opacidad, amarillamiento, rayones y desgaste acumulado para recuperar claridad, brillo y presencia.",
     detail: "Ideal para faros opacos o muy castigados",
   },
   {
     title: "Tratamiento cerámico",
-    price: "Desde ₡15.000",
-    text: "Sellado profesional con protección UV contra sol, lluvia, polvo y contaminación diaria.",
-    detail: "Protección premium hasta por 12 meses",
+    price: "Desde ₡5.000",
+    text: "Sellado ceramico con protección UV contra sol, lluvia, polvo y contaminación diaria.",
+    detail: "Protección hasta por 12 meses",
   },
   {
     title: "Mantenimiento anual",
-    price: "Desde ₡10.000",
+    price: "Desde ₡5.000",
     text: "Renovamos la capa protectora para conservar el acabado transparente y extender la vida útil del tratamiento.",
     detail: "Recomendado para mantener el resultado",
   },
@@ -154,10 +154,10 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid grid-cols-3 gap-3 rounded-[2rem] border border-white/10 bg-black/35 p-3 backdrop-blur-xl">
+          <div className="grid grid-cols-3 gap-0.5 rounded-[2rem] border border-white/10 bg-black/35 p-3 backdrop-blur-xl">
             {[
               ["12 meses", "protección"],
-              ["3 zonas", "cobertura"],
+              ["Mant.", "anual"],
               ["UV", "sellado"],
             ].map(([value, label]) => (
               <div key={label} className="rounded-2xl bg-white/[0.07] p-4 text-center">
